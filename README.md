@@ -1,3 +1,5 @@
+![Screenshot (126)](https://github.com/Shashank65536/Assign-14-Auto-API-Generated/assets/40866700/7d091dd6-3fd5-46c8-aa02-72ce511ef1f4)
+
 # lenstrade
 
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
