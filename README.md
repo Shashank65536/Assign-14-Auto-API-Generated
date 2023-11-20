@@ -3,20 +3,53 @@
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
 [initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
 
-## Install dependencies
-
-By default, dependencies were installed when this application was generated.
-Whenever dependencies in `package.json` are changed, run the following command:
+## Steps to setup project
+Install cli 
 
 ```sh
-npm install
+npm i -g @loopback/cli
 ```
-
-To only install resolved dependencies in `package-lock.json`:
+Create app
 
 ```sh
-npm ci
+lb4 app
 ```
+
+Create mongo datasource models
+
+```sh
+lb4 model
+```
+
+Add datasource
+
+```sh
+lb4 datasource
+```
+
+Make sure you have the json schema of users in the lenstrade database in the mongodb local database
+Sample data
+
+```sh
+{
+  "_id": {
+    "$oid": "64460c9d9a6a3b38889cf4fb"
+  },
+  "firstName": "Shashank",
+  "lastName": "Bidwai",
+  "email": "athira.pillai@wayne.edu",
+  "password": "qwertyui",
+  "__v": 0
+}
+```
+
+Install loop connectore mongodb
+
+```sh
+npm install loopback-connector-mongodb --save
+```
+
+
 
 ## Run the application
 
